@@ -1,0 +1,72 @@
+.my-table{
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+    background-color: white;
+    margin-top:5%;
+}
+body {
+    background: #99738E;
+}
+
+.user-info{
+    background-color: #F64C72;
+    color: blanchedalmond;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 15%;
+}
+
+.user-detail-a, .user-detail-b {
+    padding-bottom: 0.5rem;
+    width: 70%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.user-detail-a{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.user-detail-b{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.orders{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.o-heading{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 4rem;
+    color: blanchedalmond;
+}
+
+.no-order{
+    font-size: 1.5rem;
+}
+
+.my-foot{
+    background-color: #F64C72;
+    text-align: center;
+    padding: 2rem 2rem 2rem 2rem;
+    font-size: 1.3rem;
+}
+
+a {
+    color: rgb(255, 250, 250);
+    text-decoration: none;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+a:hover{
+    text-decoration: underline;
+    color: black;
+}  
+  

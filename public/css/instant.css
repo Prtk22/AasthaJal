@@ -1,0 +1,117 @@
+body {
+    background-color: #2F3242;
+  }
+  svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -15.625rem;
+    margin-left: -25rem;
+  }
+  .message-box {
+    height: 12.5rem;
+    width: 23.75rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -12.5rem;
+    margin-left: 3.125rem;
+    color: #FFF;
+    font-family: Roboto;
+    font-weight: 300;
+  }
+  .message-box h1 {
+    font-size: 3.75rem;
+    line-height: 2.875rem;
+    margin-bottom: 2.5rem;
+  }
+  .buttons-con .action-link-wrap {
+    margin-top: 2.5rem;
+  }
+  .buttons-con .action-link-wrap a {
+    background: #68c950;
+    padding: 0.5rem 1.5625rem;
+    border-radius: 0.25rem;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 0.875rem;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 0.625rem
+  }
+  .buttons-con .action-link-wrap a:hover {
+    background: #5A5C6C;
+    color: #fff;
+  }
+  
+  #Polygon-1 , #Polygon-2 , #Polygon-3 , #Polygon-4 , #Polygon-4, #Polygon-5 {
+    animation: float 1s infinite ease-in-out alternate;
+  }
+  #Polygon-2 {
+    animation-delay: .2s;
+  }
+  #Polygon-3 {
+    animation-delay: .4s;
+  }
+  #Polygon-4 {
+    animation-delay: .6s;
+  }
+  #Polygon-5 {
+    animation-delay: .8s;
+  }
+  
+  @keyframes float {
+      100% {
+      transform: translateY(1.25rem);
+    }
+  }
+  @media (max-width: 28.125rem) {
+    svg {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: -15.625rem;
+      margin-left: -11.875rem;
+    }
+    .message-box {
+      top: 50%;
+      left: 50%;
+      margin-top: -6.25rem;
+      margin-left: -11.875rem;
+      text-align: center;
+    }
+  }
+  .myorder{
+    font-size: 2rem;
+  }
+  .b1{
+    margin-top: 2%;
+    margin-left:25%;
+    width:50%;
+    margin-right: 25%
+  }
+  input{
+    width:100%
+  }
+  .b2{
+    margin-top: 2%;
+    margin-left:25%;
+    width:50%;
+    margin-right: 25%;
+    margin-bottom: 2rem;
+  }
+.prev{
+  text-align: right;
+  margin-top: 1.5rem;
+  margin-right: 3rem;
+  font-size: 1.2rem;
+  
+}
+a{
+  color: greenyellow;
+}
+a:hover{
+  text-decoration: none;
+  color: pink;
+}

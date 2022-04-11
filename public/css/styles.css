@@ -1,0 +1,247 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.myfooter{
+  display: flex;
+  background: white;
+  justify-content: flex-end;
+  align-items: flex-end;
+  min-height: 20rem;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  background: #3586ff;
+  min-height: 6.25rem;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url("https://i.ibb.co/wQZVxxk/wave.png");
+  background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animateWaves {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: -1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+
+.my-navbar{
+    background-color: #08e7b7;
+    padding: 50px 10px 20px 10px;
+}
+
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding:0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+
+body{
+    font-family: "Montserrat";
+}
+
+.welcome-note{
+    text-align: center;
+    /*padding: 150px 0px  70px 300px;*/
+    padding-top: 150px;
+    font-size: 2rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+  
+}
+
+
+.intro{
+    background-color: #08e7b7;
+    
+}
+
+#pricing{
+    padding: 100px;
+}
+
+.price-col{
+    padding: 30px 40px;
+}
+
+.price-h,.price-p{
+    font-weight: bold;
+}
+
+.plan-text{
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.plan-row{
+    text-align: center;
+}
+
+.b1{
+  margin-bottom: 1rem;
+}
+
+#testimonials{
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.timg{
+  border-radius: 50%;
+  border: .438rem solid #fff;
+  width: 18.75rem;
+  height: 18.75rem;
+  margin-bottom: 2rem;
+}
+
+.t-heading{
+  padding-top: 2rem ;
+}
+
+.feature-p{
+  color: #8f8f8f;
+  font-weight: 600;
+}
+#features{
+  text-align: center;
+  padding-top: 7%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-col h3{
+  font-size: 1.5rem;
+  font-family: 'Lato', sans-serif;
+  padding-top: 5px;
+}
+.icon{
+  color: #08e7b7;
+}
+
+.icon:hover{
+  color: #295c51;
+}
+
+
